@@ -1,0 +1,43 @@
+:root {
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--preto);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  /*justify-content: space-between;*/
+  padding:0 10px;
+}
+
+.logo {
+  color: var(--vermelho);
+  font-family: "Arial Black";
+  font-size: 40px;
+}
+
+.menu {
+  margin-left: 18px;
+}
+
+.menu a {
+  color: #aaa;
+  margin-right: 10px;
+}
+
+.menu a:hover {
+  color: #fff;
+}

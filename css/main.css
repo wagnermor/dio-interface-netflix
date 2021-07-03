@@ -12,14 +12,16 @@
   box-sizing: border-box;
 }
 
+/* Elementos base */
 body {
   background-color: var(--preto);
+  color: #fff;
 }
 
 .container {
   display: flex;
   align-items: center;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
   padding:0 10px;
 }
 
@@ -40,4 +42,24 @@ body {
 
 .menu a:hover {
   color: #fff;
+}
+
+/* Filme principal */
+.filme_principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)100%), url("../img/capa-brooklyn.jpg");
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme_principal .descricao {
+  margin-bottom: 40px;
+}
+
+.titulo {
+  font-size: 40px;
 }

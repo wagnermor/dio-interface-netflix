@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');/* regular:400 - medium: 500 - bold: 700 */
+
 :root {
   --vermelho: #E50914;
   --preto: #141414;
@@ -27,7 +29,8 @@ body {
 
 .logo {
   color: var(--vermelho);
-  font-family: "Arial Black";
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
   font-size: 40px;
 }
 
@@ -57,9 +60,32 @@ body {
 }
 
 .filme_principal .descricao {
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
 .titulo {
+  font-family: "Trebuchet MS", "Helvetica Neue", sans-serif;
   font-size: 40px;
+  margin-top: 15%;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, .5);
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  margin-right: 16px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.fas {
+  margin-right: 10px;
 }

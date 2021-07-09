@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');/* regular:400 - medium: 500 - bold: 700 */
+
+:root {
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* Elementos base */
+body {
+  background-color: var(--preto);
+  color: #fff;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 10px;
+}
+
+.logo {
+  color: var(--vermelho);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.menu {
+  margin-left: 18px;
+}
+
+.menu a {
+  color: #aaa;
+  margin-right: 10px;
+}
+
+.menu a:hover {
+  color: #fff;
+}
+
+/* Filme principal */
+.filme_principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)100%), url("../img/capa-brooklyn.jpg");
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme_principal .descricao {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.titulo {
+  font-family: "Trebuchet MS", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  margin-top: 15%;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, .5);
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  margin-right: 16px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.fas {
+  margin-right: 10px;
+}
+
+.container {
+  margin-left: 30px;
+}
+
+.filme_principal .container {
+  width: 70%;
+}
